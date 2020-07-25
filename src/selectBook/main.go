@@ -75,7 +75,6 @@ func single() {
 			case c1 <- 10:
 			case i := <-c1:
 				fmt.Println("c1 : ", i)
-
 			}
 		}
 	}()
